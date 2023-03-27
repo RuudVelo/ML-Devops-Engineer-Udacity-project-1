@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "predict-churn"
+version = "0.1.0"
+description = "Udacity churn prediction assignment"
+authors = ["Ruud Goorden"]
+readme = "README.md"
+packages = [{include = "predict_churn"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pandas = "^1.5.3"
+joblib = "^1.2.0"
+scikit-learn = "0.24.2"
+llvmlite = "^0.38.0"
+numba = {git = "https://github.com/numba/numba", tag="0.56.0dev0"}
+shap = "^0.41.0"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+pylint = "^2.17.1"
+autopep8 = "^2.0.2"
+ipykernel = "^6.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
