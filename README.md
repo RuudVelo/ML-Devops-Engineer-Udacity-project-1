@@ -46,5 +46,5 @@ python churn_library.py
 * Run the churn_script_logging_and_tests.py script
 
 ```bash
-python churn_library.py
+python churn_script_logging_and_tests.py
 ```
