@@ -25,7 +25,7 @@ python3 -m venv venv
 * Activate the virtual env
 
    - Windows: `my_venv\Scripts\activate.bat`
-   - Linux/macOS: `souce my_venv/bin/activate`
+   - Linux/macOS: `source my_venv/bin/activate`
 
 Poetry has been used for dependency management. 
 
